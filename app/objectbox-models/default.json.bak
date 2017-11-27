@@ -1,0 +1,86 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5051825639703421763",
+      "lastPropertyId": "3:464624733385796230",
+      "name": "Item",
+      "properties": [
+        {
+          "id": "1:2961962693918528583",
+          "name": "id"
+        },
+        {
+          "id": "2:463324762036399719",
+          "name": "isActive"
+        },
+        {
+          "id": "3:464624733385796230",
+          "indexId": "2:7583100817100337415",
+          "name": "parentProjectId"
+        }
+      ],
+      "relations": [
+        {
+          "id": "6:6062992066429654946",
+          "name": "notes"
+        }
+      ]
+    },
+    {
+      "id": "2:7680497806306419980",
+      "lastPropertyId": "5:5713276794935552288",
+      "name": "Note",
+      "properties": [
+        {
+          "id": "1:1536824329825489583",
+          "name": "id"
+        },
+        {
+          "id": "2:388171123180022003",
+          "name": "text"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4450317566535781481",
+      "lastPropertyId": "1:4005515095872990979",
+      "name": "Project",
+      "properties": [
+        {
+          "id": "1:4005515095872990979",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:4450317566535781481",
+  "lastIndexId": "4:4971531562983294522",
+  "lastRelationId": "6:6062992066429654946",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    4591919079853764878,
+    7685198179831913233,
+    4971531562983294522
+  ],
+  "retiredPropertyUids": [
+    6541105995763488318,
+    433871036876110533,
+    5713276794935552288
+  ],
+  "retiredRelationUids": [
+    6134808446072522004,
+    6822906850771096016,
+    845815447089767728,
+    7730191205663821232,
+    8530021934702112236
+  ],
+  "version": 1
+}
